@@ -2,9 +2,8 @@ import React from 'react';
 import './App.scss';
 import { Route, Routes } from 'react-router-dom';
 import Login from './features/auth/page/login';
-import SignUp from './features/auth/page/signup';
-import Admin from './features/layout/admin';
-
+import SignUp from './features/auth/page/signup/';
+import Admin from './features/layout/Admin';
 function App() {
 
   return (
