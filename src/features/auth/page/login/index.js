@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from '@progress/kendo-react-buttons'
-import { authActions } from '../../authSlice';
+import { authActions } from './authSlice';
 import { useDispatch, connect } from 'react-redux';
 import { Form, FormElement, Field } from '@progress/kendo-react-form';
-import { FloatingLabelEmailInput } from './formComponent';
+import { FloatingLabelEmailInput } from '../../../../common/formComponent'
 import './style.scss';
 import { formValidator } from './validator';
 import { Link } from 'react-router-dom';
